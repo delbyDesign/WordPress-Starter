@@ -1,0 +1,35 @@
+/*
+Theme Name: WordPress Starter
+Theme URI: http://wordpress.org/
+Author: Davide del Buoono
+Author URI: https://www.facebook.com/Davide.del.Buono
+Description: Un semplice tema HTML5
+Version: 1.0
+*/
+
+/* QUESTO FILE CSS DEVE ESSERE COMPETAMENTE PERSONALIZZATO */
+
+/* Header */
+
+.titolo {
+    color: #000;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+/* Menù Principale */
+
+.menu {
+    list-style: none;
+    margin-top: -7px;
+}
+
+.menu-item {
+    float: left;
+    padding-left: 10px;
+}
+
+.menu-item a{
+    font-size: 19px;
+}
+
