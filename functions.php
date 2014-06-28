@@ -13,9 +13,9 @@ register_sidebar( array(
 		'after_title'   => '</h2>',
 	) );
 
-wp_enqueue_style( 'starter', get_stylesheet_uri(), array(), '1.0', 'all' );
+wp_register_style( 'starter', get_stylesheet_uri(), array(), '1.0', 'all' );
 
-wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/bootstrap/bootstrap.min.css', array(), '3.1.1', 'all' );
+wp_register_style( 'bootstrap', get_template_directory_uri() . '/bootstrap/bootstrap.min.css', array(), '3.1.1', 'all' );
 
 function page_nav_link() {
     global $wp_query;  
